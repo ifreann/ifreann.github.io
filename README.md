@@ -1,2 +1,0 @@
-# ifreann
-memes lol

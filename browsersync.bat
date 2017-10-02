@@ -1,0 +1,1 @@
+browser-sync start --server --no-notify --b "Chrome" --files="**/*.css,**/*.js,*.html"
