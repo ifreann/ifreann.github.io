@@ -120,6 +120,9 @@
 	<!-- bootstrap js -->
 	<script src="js/include/bootstrap.min.js"></script>
 
+	<!-- moment js - used for date formatting -->
+	<script src="js/include/moment.min.js"></script>
+
 	<!-- datepicker and its config file -->
 	<script src="js/include/bootstrap-datepicker.js"></script>
 	<script src="js/include/datepicker-config.js"></script>
@@ -133,14 +136,14 @@
 		});
 	</script>
 
-		<!-- preloader -->
-		<script>
-			$(window).on('load', function() { // makes sure the whole site is loaded 
-				$('#status').fadeOut(); // will first fade out the loading animation 
-				$('#preloader').delay(250).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-				$('body').delay(250).css({'overflow':'visible'});
-			})
-		</script>
+	<!-- preloader -->
+	<script>
+		$(window).on('load', function() { 
+			$('#status').fadeOut(); // will first fade out the loading animation 
+			$('#preloader').delay(250).fadeOut('slow'); // will fade out the white DIV that covers the page. 
+			$('body').delay(250).css({'overflow':'visible'});
+		})
+	</script>
 
 </body>
 </html>

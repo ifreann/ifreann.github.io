@@ -1,25 +1,13 @@
-/*Small devices (landscape phones, 575px and below)*/
-@media (max-width: 575px) {  }
-
-/*Medium devices (tablets, 767px and below)*/
-@media (max-width: 767px) {  }
-
-/*Large devices (desktops, 991px and below)*/
-@media (max-width: 991px) {
-	.btn-group {
-		display:grid;
-	}
-	.btn-secondary {
-		margin-bottom:5px !important;
-		min-width:100%;
-	}
-	.container-fluid {
-		min-height: 240px;
-	}
+body {
+	margin:0;
+	padding:0;
 }
 
-/*Extra large devices (large desktops, 1199px and below)*/
-@media (max-width: 1199px) {  }
+iframe {
+	width:100%;
+	height:auto;
+	min-height:100vh;
+}
 
 html {
 	word-wrap: break-word;
@@ -101,6 +89,8 @@ button {
 }
 
 .input { margin-bottom:20px; }
+
+.placeholder { color: #495057; }
 
 /* reverts the grey disabled styling to good ol' plain */
 .form-control[readonly] { background-color: rgba(0,0,0,0); }
@@ -396,3 +386,25 @@ body {
   0%, 39%, 100% { opacity: 0; }
   40% { opacity: 1; } 
 }
+
+/*Small devices (landscape phones, 575px and below)*/
+@media (max-width: 575px) {  }
+
+/*Medium devices (tablets, 767px and below)*/
+@media (max-width: 767px) {  }
+
+/*Large devices (desktops, 991px and below)*/
+@media (max-width: 991px) {
+	.btn-group {
+		display:grid;
+	}
+	.btn-secondary {
+		margin-bottom:5px !important;
+		min-width:100%;
+	}
+	.container-fluid {
+		min-height: 240px;
+	}
+}
+/*Extra large devices (large desktops, 1199px and below)*/
+@media (max-width: 1199px) {  }

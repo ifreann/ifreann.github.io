@@ -1,11 +1,7 @@
-var inputs = [1,2,3];
+var str = '<strong>Open-Label Treatment Period</strong><br />Visit 7 Week 18 = [date type="start" format="dd/MMM/yyyy" calculation="+126,days"] (&#177; 7 days)<br />Visit 8 Week 24/End of Open-Label Treatment = [date type="start" format="dd/MMM/yyyy" calculation="+168,days"] (&#177; 3/&#177; 1 days)<br />&#160;<br />Please note that Visit 8 Week 24/End of Open-Label Treatment visit window is &#177; 3 days for patients not on apheresis and &#177; 1 day for patients on apheresis. Every attempt should be made to ensure all samples are collected immediately prior to LDL apheresis. The timing between the baseline sample collection relative to the most recently completed LDL apheresis procedure should match the timing of the Week 12 sample collection relative to the most recently completed LDL apheresis procedure. Depending on the duration between the LDL apheresis procedure and sample collection, the visit window may not apply.<br />&#160;<br />Visit 9 Week 32/ End of Study Phone Visit = [date type="start" format="dd/MMM/yyyy" calculation="+224,days"] (&#177; 5 days) <br />&#160;<br />Please note that Visit 9 Week 32/ End of Study Phone Visit is only for patients who do not participate in another lipid-lowering study.'
 
-function lol() {
-	var inputs = "lol";
+console.log(str);
 
-	console.log(inputs);
-}
+var asd = str.replace("<strong>", "memes");
 
-lol();
-
-console.log(inputs);
+console.log(asd);
