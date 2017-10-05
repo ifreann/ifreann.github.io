@@ -18,51 +18,6 @@ var defaultInput = "input1";
 // boolean check used to prevent datepicker.clearDates() triggering inputChange()
 var triggeredByClearedDatepicker = false;
 
-function showOutputText() {
-
-	var selections = buildSelectionsArray();
-	var v = selections[0];
-	var withdrawing = selections[1];
-	var baselineDate = selections[2];
-
-	var output = "";
-	var outputHTML = "";
-	var lineNumber = v;
-	var heading = "<strong>Double-Blind Treatment Period</strong><br/>";
-
-	if ( v == 1 )
-	{
-		output = "output1-3_9_4-7";
-		outputHTML = calculateOutput(output, baselineDate, 0);
-	}
-	else if ( withdrawing == 2 )
-	{
-		output = "output8";
-		outputHTML = getOutputText(output);
-	}
-	else
-	{
-		output = "output1-3_9_4-7";
-		
-		if ( v > 3 ) { heading = "<strong>Open-Label Treatment Period</strong><br/>"; }
-		
-		if ( v == 4 ) { lineNumber += 3; }
-		else if ( v == 7 ) { lineNumber += 10; }
-		else if ( v > 4 ) { lineNumber += 7; }
-
-		outputHTML = heading + calculateOutput(output, baselineDate, lineNumber);
-	}
-
-	var html = "<h2>Projected Future Visit Dates</h2>\
-				<div class='col-12 right-edge'><hr></div>\
-				<div class='output-area'>" +
-					outputHTML
-				+ "</div>"
-
-	$('#outputArea').html(html);
-
-}
-
 // returns the output with its date objects calculated
 function calculateOutput(output, dateToUse, lineNumber) {
 
@@ -117,13 +72,6 @@ function calculateDates(dateObjects, dateToUse) {
 	}
 
 	return calculatedDates;
-
-}
-
-// uses moment.js to format date
-function formatDate(dateObject) {
-
-	// todo
 
 }
 
@@ -189,51 +137,6 @@ function initialize() {
 
 	document.getElementById('clearBtn').onclick = clearAll;
 	document.getElementById('printBtn').onclick = displayPrintDialog;
-
-}
-
-function inputChange(event) {
-
-	// do nothing if inputChange was triggered by clearing a datepicker
-	if ( triggeredByClearedDatepicker ) { return; }
-
-	var inputName = event.target.id;
-	var selection = document.getElementById(inputName).selectedIndex;
-
-	switch (inputName) {
-
-		case "input1":
-			if ( selection == 1 || selection == 2 ) {
-				displayInputs = [ 1, 3 ];
-			}
-			else {
-				displayInputs = [ 1, 2 ];
-			}
-			break;
-
-		case "input2":
-			if ( selection == 1 ) {
-				displayInputs = [ 1, 2, 3 ];
-			}
-			else {
-				displayInputs = [ 1, 2 ];
-			}
-			break;
-
-	}
-
-	// if it's a dropdown that changed
-	if ( event.target.localName == "select" ) {
-		hideSubmitBtn();
-		sortInputs(displayInputs);
-		handleNextInput(displayInputs, inputName);
-	}
-	// if it's a datepicker that changed
-	else {
-		showSubmitBtn();
-	}
-
-	clearOutputText();
 
 }
 
@@ -347,7 +250,7 @@ function addDatepicker(inputName, label) {
 							<div class='input-group-addon'>\
 								<span class='calendar-icon'><img src='calendar.svg' height=25 width=40></span>\
 							</div>\
-							<input type='datepicker' id=" + inputName + " class='form-control' placeholder='Select date...'>\
+							<input type='datepicker' id=" + inputName + " class='form-control' placeholder='Select date...' readonly>\
 						</div>\
 					</div>\
 				</div>"
@@ -445,11 +348,11 @@ function sanitizeOutput(string) {
 
 }
 
-// Populates static HTML elements with interaction.xml labels
+// Populates static HTML elements with XML data
 function buildHTML() {
 
 	// load the xml file to be parsed
-	$.ajax({ url: 'interaction.xml' })
+	$.get({ url: 'interaction.xml' })
 
 	.done(function(data) {
 
@@ -515,29 +418,29 @@ function buildInputsArray() {
 	var options = [];
 
 	// load the xml file to be parsed
-	$.ajax({ url: 'interaction.xml' })
+	$.get({ url: 'interaction.xml' })
 
 	.done(function(data) {
 
 		instancesXML = $(data).find('component[instance_name^="input"][type="label"]');
 
-		for (eachInstancesXMLNode of instancesXML) { instances.push(eachInstancesXMLNode.attributes["instance_name"].textContent); }
+		for ( var i = 0; i < instancesXML.length; i++ ) {
+			instances.push(instancesXML[i].attributes["instance_name"].textContent);
+		}
 
 		labelsXML = $(data).find('component[instance_name^="input"][type="label"] property:nth-child(1) value').toArray();
 		
-		for (eachLabelsXMLNode of labelsXML) { labels.push(sanitize(eachLabelsXMLNode.textContent)); }
+		for ( var i = 0; i < labelsXML.length; i++ ) { labels.push(sanitize(labelsXML[i].textContent)); }
 		
 		for (var i = 0; i < labelsXML.length; i++) {
 			optionsXML.push($(data).find('component[instance_name="input' + ( i + 1 ) + '_dropdown1"] component[instance_name^="label"][instance_name!="label"] property:nth-child(1) value').toArray());
 		}
 
-		var count = 0;
-		for (eachOptionsXMLNode of optionsXML) {
+		for ( var i = 0; i < optionsXML.length; i++ ) {
 			options.push([]);
-			for (eachOptionsXMLSubnode of eachOptionsXMLNode) {
-				options[count].push(sanitize(eachOptionsXMLSubnode.textContent));
+			for ( var j = 0; j < optionsXML[i].length; j++ ) {
+				options[i].push(sanitize(optionsXML[i][j].textContent));
 			}
-			count++;
 		}
 
 		inputs.push(instances, labels, options);
@@ -549,10 +452,10 @@ function buildInputsArray() {
 }
 
 // put relevant XML data into outputs[]
-function buildOutputsArray() {
+function buildOutputsArray(data) {
 
 	// load the xml file to be parsed
-	$.ajax({ url: 'interaction.xml' })
+	$.get({ url: 'interaction.xml' })
 
 	.done(function(data) {
 
@@ -563,17 +466,14 @@ function buildOutputsArray() {
 
 		instancesXML = $(data).find('component[instance_name^="output"][instance_name!="outputHeading"]');
 
-		for (eachInstancesXMLNode of instancesXML) {
-			instances.push(eachInstancesXMLNode.attributes["instance_name"].textContent);
-		}
+		for (var i = 0; i < instancesXML.length; i++) { 	instances.push(instancesXML[i].attributes["instance_name"].textContent); }
 
 		var valuesXML = $(data).find('component[instance_name^="output"][instance_name!="outputHeading"] property:nth-child(1) value').toArray();
 
-		for (eachValuesXMLNode of valuesXML) {
-			values.push(sanitizeOutput(eachValuesXMLNode.textContent));
-		}
+		for (var i = 0; i < valuesXML.length; i++) { values.push(sanitizeOutput(valuesXML[i].textContent)); }
 
 		outputs.push(instances, values);
+	
 	});
 
 }
