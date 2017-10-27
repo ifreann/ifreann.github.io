@@ -1,3 +1,6 @@
+// the first input to be displayed to the user. Nearly always "input1".
+var defaultInput = "input1";
+
 function inputChange(event) {
 
 	// do nothing if inputChange was triggered by clearing a datepicker
@@ -40,7 +43,6 @@ function inputChange(event) {
 	}
 
 	clearOutputText();
-
 }
 
 function showOutputText() {
@@ -79,11 +81,17 @@ function showOutputText() {
 	}
 
 	var html = "<h2>Projected Future Visit Dates</h2>\
-				<div class='col-12 right-edge'><hr></div>\
+				<hr></hr>\
 				<div class='output-area'>" +
 					outputHTML
 				+ "</div>"
 
 	$('#outputArea').html(html);
 
+	// scroll to the beginning of the output area if on mobile
+	if ( $(window).width() < 768 ) {
+		$('html, body').animate({
+			scrollTop: $("#outputArea").offset().top - 50
+		}, 500);
+	}
 }

@@ -1,17 +1,59 @@
 html {
-	word-wrap: break-word;
+	
 }
 
-.container-fluid {
-	padding-top:60px;
+body {
+	min-width:320px;
+	margin-bottom:150px;
+}
+
+.menu {
+	min-width:320px;
+	background-color: #003D48;
+}
+
+.header {
+	min-width:320px;
+	padding-top:75px;
 	background-color: #108576;
-	padding-bottom:60px;
+	padding-bottom:45px;
 	margin-bottom: 30px;
+}
+
+.btn-group {
+	width:100%;
+	text-align:center;
 }
 
 p {
 	color:#fff;
 	margin:0;
+}
+
+p.dismiss-button {
+	text-align:right;
+	font-size:40px;
+	line-height:.5;
+	cursor: pointer;
+	cursor: hand;
+}
+
+p#disclaimer {
+	font-size:16px;
+}
+
+p.version {
+	font-size:16px;
+	opacity:.5;
+}
+
+a.nav-link {
+	padding-left:0;
+	padding-right:0;
+}
+
+strong {
+	color: #003D48;
 }
 
 h1 {
@@ -33,53 +75,69 @@ h3 {
 	color:#fff;
 }
 
-label { color:#003D48; }
-
-.right-edge { padding-right:0; }
-
-.btn-group {
-	width:100%;
-	position:absolute;
-	margin-top:10px;
-	right: 0px;
-}
-
-/* hand icon on hover over buttons */
-button {
-	cursor: pointer;
-	cursor: hand;
-}
-
-.btn-secondary {
-	width:33%;
-	background-color:#003D48;
-	border:0;
-	border-radius:0;
-	margin-left:5px !important; /* makes the 3 lads at the top stop touching each other */
-}
-
-.btn-secondary:hover {
+/* modal header */
+h4 {
+	font-size:24px;
+	font-weight:600;
 	color:#003D48;
-	border:0;
-	border-radius:0;
-	background-color:#fff;
+}
+
+label {
+	color:#003D48;
 }
 
 .btn-primary {
-	background-color:#108576;
+	max-width:240px;
+	background: #003D48;
+	background: linear-gradient(to bottom, #005766, #003D48);
 	border:0;
 	border-radius:0;
+	-moz-box-shadow: 0 3px 6px 0 #999;
+	-webkit-box-shadow: 0 3px 6px 0 #999;
 }
 
 .btn-primary:hover {
-	background-color:#003D48;
-	border:0;
-	border-radius:0;
+	opacity:0.9;
 }
 
-.input { margin-bottom:20px; }
+.btn:target {
+	background-color:#FFF;
+}
 
-.placeholder { color: #495057; }
+.btn-secondary {
+	cursor:hand;
+	cursor:pointer;
+	max-width:240px;
+	/*background: #003D48;*/
+	background: linear-gradient(to bottom, #005766, #003D48);
+	border:0;
+	border-radius:0;
+	border-right: 5px solid #003D48;
+}
+
+.btn-secondary:hover {
+	border-right: 5px solid #003D48;
+	color:black;
+	background: linear-gradient(to bottom, white, white);
+}
+
+.btn-secondary:last-child {
+	border-right:0;
+}
+
+.btn-secondary:active {
+	border:none;
+}
+
+.input {
+	padding:0;
+	margin:0;
+	margin-bottom:20px;
+}
+
+.placeholder {
+	color: #495057;
+}
 
 /* make every dropdown the same width */
 .custom-select {
@@ -97,7 +155,7 @@ button {
 	cursor: hand;
 	margin-left: -40px;
 	padding-left:50px;
-	z-index:9999;
+	z-index:2000;
 }
 
 /* reverts the grey disabled styling to good ol' plain */
@@ -112,7 +170,6 @@ button {
 /* calendar icon - turns off rounded edges and removes padding */
 .input-group-addon {
 	pointer-events: none;
-	/*border-color:#D9D9D9;*/
 	border:none;
 	border-radius:0; 
 	padding:0;
@@ -149,9 +206,12 @@ td.active.day {
 /* makes calendar icon less harsh */
 img { opacity: 0.8; }
 
+#outputArea {
+	margin-top: 20px;
+}
+
 .output-area {
 	overflow-y: auto;
-	/*max-height: 450px;*/
 }
 
 .submit-btn {
@@ -159,62 +219,24 @@ img { opacity: 0.8; }
 	margin-top:10px;
 	width:100%;
 	text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+	cursor: pointer;
+	cursor: hand;
 }
 
 select { 
 	font-size:16px;
 }
 
-option {
-	
-}
-
-/* sticky footer stuff */
-html {
-	position: relative;
-	min-height: 100%;
-}
-
-body {
-	margin-bottom: 100px;
-}
-
-.footer-container { padding-left:0; }
-
 .footer {
-	background-color: #003D48;
-	color:#DEE9EC;
-	position: fixed; /* use absolute if you want it to move with the content, or fixed if "true" sticky. */
-	bottom: 0;
-	width: 100%;
-	padding-top:15px;
-	padding-bottom: 15px;	
+	min-width:320px;
+	background-color: #000;
+	margin:0;
+	z-index:9001;
+	opacity:.85;
 }
-
-.version { text-align:right; }
-
-/* why do I even have to do this, it's called BOOTSTRAP FOR GOD'S SAKE */
-.col 		{ padding-left:0px; }
-.col-1 		{ padding-left:0px; }
-.col-2 		{ padding-left:0px; }
-.col-3 		{ padding-left:0px; }
-.col-4 		{ padding-left:0px; }
-.col-5 		{ padding-left:0px; }
-.col-6 		{ padding-left:0px; }
-.col-7 		{ padding-left:0px; }
-.col-8 		{ padding-left:0px; }
-.col-9 		{ padding-left:0px; }
-.col-10 	{ padding-left:0px; }
-.col-11 	{ padding-left:0px; }
-.col-12 	{ padding-left:0px; }
 
 /* Modal */
-.modal-lg {
-	max-width:60%;
-}
-
 .modal-body {
-	height:80%;
 	overflow-y:auto;
 }
 
@@ -225,6 +247,16 @@ body {
 .modal-content {
 	height:100%;
 	padding: 10px 20px 30px 20px;
+}
+
+.close {
+	cursor: hand;
+	cursor: pointer;	
+}
+
+.dismiss-modal {
+	font-size:36px;
+	font-weight:600;
 }
 
 /* Preloader */
@@ -241,7 +273,7 @@ body {
 	bottom: 0;
 	background-color: #108576;
 	color: #fff;
-	z-index: 99;
+	z-index: 9999;
 }
 
 #status {
@@ -391,24 +423,156 @@ body {
   40% { opacity: 1; } 
 }
 
-/*Small devices (landscape phones, 575px and below)*/
-@media (max-width: 575px) {  }
+.no-padding { 
+	padding:0;
+}
 
-/*Medium devices (tablets, 767px and below)*/
-@media (max-width: 767px) {  }
+.no-margin {
+	margin:0;
+}
 
-/*Large devices (desktops, 991px and below)*/
-@media (max-width: 991px) {
-	.btn-group {
-		display:grid;
+/* Media Queries */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+	.modal-lg {
+		height: 100%;
+		padding:0;
+		margin:0;
 	}
+
+	.header {
+		padding-top:60px;
+		background-color: #108576;
+		padding-bottom:20px;
+		margin-bottom:20px;
+	}
+
+	.footer {
+		padding:12px 0 12px 0;
+	}
+
 	.btn-secondary {
-		margin-bottom:5px !important;
-		min-width:100%;
+		min-width: 33.33%;
+		min-width: calc(100% / 3);
+		text-align:center;
 	}
-	.container-fluid {
-		min-height: 240px;
+
+	p#disclaimer {
+		font-size:12px;
+	}
+
+	p#version {
+		font-size:12px;
+	}
+
+	h1 {
+		font-size:32px;
+		text-align:center;
+	}
+
+	h2 {
+		font-size:20px;
+		text-align:center;
+	}
+
+	#outputArea {
+		margin-top: 20px;
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+	.btn-secondary {
+		min-width: 33.33%;
+		min-width: calc(100% / 3);
+		text-align:center;
+	}
+
+	p#disclaimer {
+		font-size:14px;
+	}
+
+	p#version {
+		font-size:14px;
+	}
+
+	.footer {
+		padding:15px 0 15px 0;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+	.buttons {
+		margin:0px auto;
+		padding-right:40px;
+		padding-left:40px;
+		width: 768px;
+	}
+
+	.header {
+		min-width:320px;
+		padding-top:90px;
+		background-color: #108576;
+		padding-bottom:60px;
+		margin-bottom: 30px;
+	}
+
+	.btn-primary {
+		max-width:none;
+	}
+
+	.btn-secondary {
+		min-width: 33.33%;
+		min-width: calc(100% / 3);
+		text-align:center;
+	}
+
+	#outputArea {
+		margin-top: 0px;
+	}
+
+	.footer {
+		padding:20px 0 20px 0;
+	}
+
+	p#disclaimer {
+		font-size:16px;
+	}
+
+	p#version {
+		font-size:16px;
+	}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	.buttons {
+		width: 992px;
+	}
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+	.buttons {
+		width: 1200px;
+	}
+
+}
+
+/*Print view*/
+@media print {
+	.menu {
+		display:none;
 	}
 }
-/*Extra large devices (large desktops, 1199px and below)*/
-@media (max-width: 1199px) {  }

@@ -12,11 +12,36 @@ var activeInputs = [];
 // comma delimited list used in inputChange() to define the inputs to be added depending on user selection.
 var displayInputs = [];
 
-// the first input to be displayed to the user. Nearly always "input1".
-var defaultInput = "input1";
-
 // boolean check used to prevent datepicker.clearDates() triggering inputChange()
 var triggeredByClearedDatepicker = false;
+
+// runs on document.ready
+function initialize() {
+
+	buildHTML();
+	buildInputsArray();
+	buildOutputsArray();
+
+	document.getElementById('clearBtn').onclick = clearAll;
+	document.getElementById('printBtn').onclick = displayPrintDialog;
+	document.getElementById('dismissBtn').onclick = dismissDisclaimer;
+
+}
+
+// what happens when you click the X button on the disclaimer
+function dismissDisclaimer() {
+
+	// slides down and fades away footer, then hides HTML
+	$( "#footer" ).animate({
+		marginBottom: "-150px",
+		opacity: "0"
+	}, 500, function() {
+		$( "#footer" ).hide();
+	});
+
+	// set margin-bottom of body to 0
+
+}
 
 // returns the output with its date objects calculated
 function calculateOutput(output, dateToUse, lineNumber) {
@@ -128,18 +153,6 @@ function buildSelectionsArray() {
 
 }
 
-// runs on document.ready
-function initialize() {
-
-	buildHTML();
-	buildInputsArray();
-	buildOutputsArray();
-
-	document.getElementById('clearBtn').onclick = clearAll;
-	document.getElementById('printBtn').onclick = displayPrintDialog;
-
-}
-
 // deals with the next active input after the user makes their selection - clear the value of the next input, or show the submit button
 function handleNextInput(displayInputs, inputName) {
 
@@ -215,6 +228,17 @@ function addInput(inputName) {
 
 }
 
+// returns true/false if a specified HTML element is completely visible to the user.
+function isFullyVisible(e) {
+
+    var elemTop = e.getBoundingClientRect().top;
+    var elemBottom = e.getBoundingClientRect().bottom;
+    var isVisible = elementTop < window.innerHeight && elementBottom >= 0;
+
+    return isVisible;
+
+}
+
 function addDropdown(inputName, label, optionsArray) {
 
 	var options = "";
@@ -224,15 +248,11 @@ function addDropdown(inputName, label, optionsArray) {
 	}
 
 	var html = "<div class='input' id=" + inputName + "HTML" + ">\
-					<div class='col'>\
-						<label for='dropdown1'>" + label + "</label>\
-					</div>\
-					<div class='col'>\
-						<select class='custom-select' id='" + inputName + "'>\
-							<option selected hidden>Select...</option>"
-							+ options +
-						"</select>\
-					</div>\
+					<label for='dropdown1'>" + label + "</label>\
+					<select class='custom-select' id='" + inputName + "'>\
+						<option selected hidden>Select...</option>"
+						+ options +
+					"</select>\
 				</div>"
 
 	$('#inputArea').append(html);
@@ -244,14 +264,12 @@ function addDropdown(inputName, label, optionsArray) {
 function addDatepicker(inputName, label) {
 
 	var html = "<div class='input' id=" + inputName + "HTML" + ">\
-					<div class='col'>\
-						<label>" + label + "</label>\
-						<div class='input-group'>\
-							<div class='input-group-addon'>\
-								<span class='calendar-icon'><img src='calendar.svg' height=25 width=40></span>\
-							</div>\
-							<input type='datepicker' id=" + inputName + " class='form-control' placeholder='Select date...' readonly>\
+					<label>" + label + "</label>\
+					<div class='input-group'>\
+						<div class='input-group-addon'>\
+							<span class='calendar-icon'><img src='calendar.svg' height=25 width=40></span>\
 						</div>\
+						<input type='datepicker' id=" + inputName + " class='form-control' placeholder='Select date...' readonly>\
 					</div>\
 				</div>"
 
@@ -284,6 +302,8 @@ function clearAll() {
 
 	addInput(defaultInput);
 
+	$('body').scrollTop(0);
+
 }
 
 // assigned to Print button
@@ -300,9 +320,8 @@ function showSubmitBtn() {
 
 	var html;
 
-	html = "<div class='col' id='submitBtnHTML'>\
-				<button type='button' class='btn btn-primary submit-btn' id='submitBtn'>Project Future Visit Dates</button>\
-			</div>"
+	html = "<div id='submitBtnHTML'>\
+				<button type='button' class='btn btn-primary submit-btn' id='submitBtn'>Project Future Visit Dates</button>"
 
 	$('#inputArea').append(html);
 
@@ -395,14 +414,15 @@ function buildHTML() {
 
 		// load FSB build number
 		var version;
-		major = $(data).find('component[instance_name="major_number"] value').text();
-		minor = $(data).find('component[instance_name="minor_number"] value').text();
-		build = $(data).find('component[instance_name="build_number"] value').text();
-		
+		major = $(data).find('major_number').text();
+		minor = $(data).find('minor_number').text();
+		build = $(data).find('build_number').text();
+
 		// interaction.xml only has a version number after you've run a build on FSB. So while working locally, the version number will say "Development Build" instead.
 		if ( major == "" || minor == "" || build == "" ) { version = "Development Build"; }
 		else { version = "v" + major + "." + minor + "." + build; }
 		document.getElementById('version').innerHTML = version;
+		
 	});
 
 }
