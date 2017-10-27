@@ -19,32 +19,35 @@
 
 <body>
 
-	<div class="container-fluid">
+	<!-- fixed top bar w/ buttons -->
+	<div class="container-fluid no-padding fixed-top menu">
+		<div class="row no-margin">
+			<div class="btn-group buttons" role="group">
+				<button type="button" class="btn btn-secondary" id="clearBtn"></button>
+				<button type="button" class="btn btn-secondary" id="printBtn"></button>
+				<button type="button" class="btn btn-secondary" id="informationBtn" data-toggle="modal" data-target="#informationModal"></button>
+			</div>
+		</div>
+	</div>
+
+	<!-- header -->
+	<div class="container-fluid header">
 		<div class="container">
 			<div class="row">
-				<div class="col-7">
+				<div class="col-12">
 					<h1 id="heading"></h1>
-				</div>
-				<div class="col-5">
-					<div class="btn-group">
-						  <button type="button" class="btn btn-secondary" id="clearBtn"></button>
-						  <button type="button" class="btn btn-secondary" id="printBtn"></button>
-						  <button type="button" class="btn btn-secondary" id="informationBtn" data-toggle="modal" data-target="#informationModal"></button>
-					</div>
-				</div>
-				<div class="col-6">
 					<p id="subheading"></p>
 				</div>
 			</div>
 		</div>
 	</div>
 
+	<!-- content -->
 	<div class="container">
 		<div class="row">
-			<div class="col-4">
+			<div class="col-sm-12 col-md-5 col-lg-4">
 				<h2 id="inputsHeading"></h2>
-				<div class="col-12"><hr></div>
-				
+				<hr></hr>				
 				<!-- inputs go here -->
 				<div id="inputArea">
 
@@ -52,33 +55,37 @@
 
 			</div>
 			<!-- outputs go here -->
-			<div class="col-8 right-edge" id="outputArea">
+			<div class="col-sm-12 col-md-7 col-lg-8" id="outputArea">
 				
 			</div>
 		</div>
 	</div>
-
-	<footer class="footer">
-		<div class="container footer-container">
-			<div class="row">
-				<div class="col-9">
+	
+	<!-- footer -->
+	<div class="container-fluid fixed-bottom footer" id="footer">
+		<div class="container">
+			<div class="row">		
+				<div class="col-10 col-md-11">
 					<p id="disclaimer"></p>
 				</div>
-				<div class="col-3 right-edge version">
-					<p id="version"></p>
+				<div class="col-2 col-md-1">
+					<p class="dismiss-button" id="dismissBtn">&times;</p>
 				</div>
+				<div class="col-12">
+					<p class="version" id="version"></p>
+				</div>	
 			</div>
 		</div>
-	</footer>
-
+	</div>
+		
 	<!-- information modal -->
-	<div class="modal fade" id="informationModal">
+	<div class="row modal fade" id="informationModal">
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h2 class="modal-title" id="informationHeading"></h2>
+					<h4 class="modal-title" id="informationHeading"></h4>
 					<button type="button" class="close" data-dismiss="modal">
-						<span>&times;</span>
+						<span class="dismiss-modal">&times;</span>
 					</button>
 				</div>
 				<div class="modal-body" id="informationContent">
@@ -89,7 +96,7 @@
 	</div>
 
 	<!-- preloader animation -->
-	<div id="preloader">
+	<!-- <div id="preloader">
 		<div id="status">
 			<h3>Loading...</h3>
 			<div class="sk-fading-circle">
@@ -107,7 +114,7 @@
 				<div class="sk-circle12 sk-circle"></div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- preload images -->
 	<div class="preloadedImages"></div>
@@ -125,13 +132,13 @@
 	<script>$(document).ready(function() { initialize(); });</script>
 
 	<!-- preloader -->
-	<script>
+	<!-- <script>
 		$(window).on('load', function() { 
 			$('#status').fadeOut();
 			$('#preloader').delay(250).fadeOut('slow');
 			$('body').delay(250).css({'overflow':'visible'});
 		})
-	</script>
+	</script> -->
 
 </body>
 </html>
