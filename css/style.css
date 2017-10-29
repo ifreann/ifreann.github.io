@@ -3,9 +3,14 @@ body {
 	margin-bottom:150px;
 }
 
+.container {
+	/*padding:0;*/
+}
+
 .menu {
 	min-width:320px;
 	background-color: #003D48;
+	text-align:center;
 }
 
 .header {
@@ -78,21 +83,16 @@ label {
 }
 
 /* buttons */
-
-.btn-group {
-	width:100%;
-	text-align:center;
-}
-
 .btn {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-.btn:active, .btn:focus {
+/* tabbing behavior */
+.btn:focus {
 	transition:none;
 	box-shadow: none !important;
-	background: linear-gradient(to bottom, #005766, #003D48);
+	background: linear-gradient(to bottom, #00677A, #003D48);
 }
 
 .btn:hover {
@@ -113,11 +113,11 @@ label {
 	background: linear-gradient(to bottom, #005766, #003D48);
 	border:0;
 	border-radius:0;
-	box-shadow: 0 3px 6px 0 #999;
+	box-shadow: 0 3px 6px 0 #AAA;
 }
 
 .btn-primary:focus {
-	box-shadow: 0 3px 6px 0 #999 !important;
+	box-shadow: 0 3px 6px 0 #AAA !important;
 }
 
 .btn-secondary {
@@ -129,14 +129,6 @@ label {
 	border:0;
 	border-radius:0;
 	margin-right: 5px;
-}
-
-.btn-secondary:active {
-	transition:none;
-	background: linear-gradient(to bottom, #0D6473, #0D4A55) !important;
-	box-shadow: none;
-	color: #003D48;
-	background: linear-gradient(to bottom, white, white);
 }
 
 .input {
@@ -448,6 +440,18 @@ select {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
 
+	.menu {
+		padding:0;
+	}
+
+	.btn-group {
+		padding:0;
+	}
+
+	.header > .container {
+		padding:0;
+	}
+
 	.modal-lg {
 		height: 100%;
 		padding:0;
@@ -488,7 +492,7 @@ select {
 	}
 
 	h2 {
-		font-size:24px;
+		font-size:20px;
 	}
 
 	#outputArea {
@@ -536,13 +540,6 @@ select {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-	.buttons {
-		margin:0px auto;
-		padding-right:40px;
-		padding-left:40px;
-		width: 768px;
-	}
-
 	.header {
 		min-width:320px;
 		padding-top:90px;
@@ -563,7 +560,6 @@ select {
 	.btn-secondary {
 		min-width: 33.33%;
 		min-width: calc(100% / 3);
-		text-align:center;
 	}
 
 	#outputArea {
@@ -590,10 +586,6 @@ select {
 	.modal-lg {
 		min-width: 60%;
 	}
-
-	.buttons {
-		width: 992px;
-	}
 	
 }
 
@@ -602,10 +594,6 @@ select {
 
 	.modal-lg {
 		min-width: 0;
-	}
-
-	.buttons {
-		width: 1200px;
 	}
 
 }
