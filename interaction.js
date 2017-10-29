@@ -1,6 +1,9 @@
 // the first input to be displayed to the user. Nearly always "input1".
 var defaultInput = "input1";
 
+// set to true if you want the submit button to always be visible (for legacy visit planners).
+var legacyModeEnabled = false;
+
 function inputChange(event) {
 
 	// do nothing if inputChange was triggered by clearing a datepicker
@@ -91,7 +94,7 @@ function showOutputText() {
 	// scroll to the beginning of the output area if on mobile
 	if ( $(window).width() < 768 ) {
 		$('html, body').animate({
-			scrollTop: $("#outputArea").offset().top - 50
+			scrollTop: $("#outputArea").offset().top - 70
 		}, 500);
 	}
 }

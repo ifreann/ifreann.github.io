@@ -39,8 +39,6 @@ function dismissDisclaimer() {
 		$( "#footer" ).hide();
 	});
 
-	// set margin-bottom of body to 0
-
 }
 
 // returns the output with its date objects calculated
@@ -267,7 +265,7 @@ function addDatepicker(inputName, label) {
 					<label>" + label + "</label>\
 					<div class='input-group'>\
 						<div class='input-group-addon'>\
-							<span class='calendar-icon'><img src='calendar.svg' height=25 width=40></span>\
+							<span class='calendar-icon'><img class='calendar-img' src='calendar.svg' height=25 width=40></span>\
 						</div>\
 						<input type='datepicker' id=" + inputName + " class='form-control' placeholder='Select date...' readonly>\
 					</div>\

@@ -1,7 +1,3 @@
-html {
-	
-}
-
 body {
 	min-width:320px;
 	margin-bottom:150px;
@@ -18,11 +14,6 @@ body {
 	background-color: #108576;
 	padding-bottom:45px;
 	margin-bottom: 30px;
-}
-
-.btn-group {
-	width:100%;
-	text-align:center;
 }
 
 p {
@@ -86,47 +77,66 @@ label {
 	color:#003D48;
 }
 
+/* buttons */
+
+.btn-group {
+	width:100%;
+	text-align:center;
+}
+
+.btn {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.btn:active, .btn:focus {
+	transition:none;
+	box-shadow: none !important;
+	background: linear-gradient(to bottom, #005766, #003D48);
+}
+
+.btn:hover {
+	transition:none;
+	background: linear-gradient(to bottom, #00677A, #003D48);
+}
+
+/* mousedown */
+.btn:active:focus {
+	background: linear-gradient(to bottom, #003D48, #005766) !important;
+	box-shadow: none !important;
+	box-shadow: inset 0px 10px 30px 10px rgba(0,0,0,.1) !important;
+}
+
 .btn-primary {
 	max-width:240px;
 	background: #003D48;
 	background: linear-gradient(to bottom, #005766, #003D48);
 	border:0;
 	border-radius:0;
-	-moz-box-shadow: 0 3px 6px 0 #999;
-	-webkit-box-shadow: 0 3px 6px 0 #999;
+	box-shadow: 0 3px 6px 0 #999;
 }
 
-.btn-primary:hover {
-	opacity:0.9;
-}
-
-.btn:target {
-	background-color:#FFF;
+.btn-primary:focus {
+	box-shadow: 0 3px 6px 0 #999 !important;
 }
 
 .btn-secondary {
 	cursor:hand;
 	cursor:pointer;
 	max-width:240px;
-	/*background: #003D48;*/
+	background: #003D48;
 	background: linear-gradient(to bottom, #005766, #003D48);
 	border:0;
 	border-radius:0;
-	border-right: 5px solid #003D48;
-}
-
-.btn-secondary:hover {
-	border-right: 5px solid #003D48;
-	color:black;
-	background: linear-gradient(to bottom, white, white);
-}
-
-.btn-secondary:last-child {
-	border-right:0;
+	margin-right: 5px;
 }
 
 .btn-secondary:active {
-	border:none;
+	transition:none;
+	background: linear-gradient(to bottom, #0D6473, #0D4A55) !important;
+	box-shadow: none;
+	color: #003D48;
+	background: linear-gradient(to bottom, white, white);
 }
 
 .input {
@@ -178,15 +188,20 @@ label {
 }
 
 /* spaces out datepicker a bit better */
-.table-condensed { width: 220px; }
+.table-condensed {
+	width: 258px;
+}
 
-/* move it to the right a bit so it points at the calendar */
 .datepicker {
+	padding:10px;
+	border-radius:0px !important;
 	margin-left: 7px;
 }
 
 /* remove rounded edges on datepicker cells */
-.today, .day { border-radius:0 !important; }
+.today, .day {
+	border-radius:0 !important;
+}
 
 /* targets highlighted "today" cell in datepicker */
 td.today {
@@ -196,15 +211,21 @@ td.today {
 	background-color:#fff !important;
 }
 
+td.today:hover {
+	background-color:#EEE !important;
+}
+
 /* targets selected cell in datepicker */
-td.active.day {
+td.active, span.active {
+	border-radius:0 !important;
 	color:#fff !important;
 	background-image:none !important;
 	background-color:#108576 !important;
 }
 
-/* makes calendar icon less harsh */
-img { opacity: 0.8; }
+.calendar-img {
+	opacity: .8;
+}
 
 #outputArea {
 	margin-top: 20px;
@@ -236,16 +257,7 @@ select {
 }
 
 /* Modal */
-.modal-body {
-	overflow-y:auto;
-}
-
-.modal-dialog {
-	height:90%;
-}
-
 .modal-content {
-	height:100%;
 	padding: 10px 20px 30px 20px;
 }
 
@@ -443,7 +455,7 @@ select {
 	}
 
 	.header {
-		padding-top:60px;
+		padding-top:70px;
 		background-color: #108576;
 		padding-bottom:20px;
 		margin-bottom:20px;
@@ -453,10 +465,14 @@ select {
 		padding:12px 0 12px 0;
 	}
 
+	.btn {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
 	.btn-secondary {
 		min-width: 33.33%;
 		min-width: calc(100% / 3);
-		text-align:center;
 	}
 
 	p#disclaimer {
@@ -469,12 +485,10 @@ select {
 
 	h1 {
 		font-size:32px;
-		text-align:center;
 	}
 
 	h2 {
-		font-size:20px;
-		text-align:center;
+		font-size:24px;
 	}
 
 	#outputArea {
@@ -485,6 +499,19 @@ select {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+
+	.header {
+		padding-top:90px;
+	}
+
+	.modal-lg {
+		min-width:80%;
+	}
+
+	.btn {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
 
 	.btn-secondary {
 		min-width: 33.33%;
@@ -524,6 +551,11 @@ select {
 		margin-bottom: 30px;
 	}
 
+	.btn {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
 	.btn-primary {
 		max-width:none;
 	}
@@ -555,6 +587,10 @@ select {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+	.modal-lg {
+		min-width: 60%;
+	}
+
 	.buttons {
 		width: 992px;
 	}
@@ -564,6 +600,10 @@ select {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
+	.modal-lg {
+		min-width: 0;
+	}
+
 	.buttons {
 		width: 1200px;
 	}
@@ -572,7 +612,9 @@ select {
 
 /*Print view*/
 @media print {
-	.menu {
+
+	.menu, .footer, .btn {
 		display:none;
 	}
+
 }
