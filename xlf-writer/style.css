@@ -1,0 +1,135 @@
+html {
+	margin-top: 80px;
+	word-break: break-word;
+}
+
+.col-2 {
+	word-break: normal;
+}
+
+.p2, .instruction2, .alert {
+	opacity: 0;
+}
+
+.instructions {
+	display: flex;
+	margin-bottom: 90px;
+}
+
+.instruction1, .instruction2 {
+	position: absolute;
+}
+
+.alert {
+	position: fixed;
+	top: 20px;
+	width: 16%;
+	left: 42%;
+	text-align: center;
+	z-index: 9999;
+	animation: alert-slide 3s;
+}
+
+@keyframes alert-slide {
+	0% {
+		transform: translateY(-50px);
+		opacity: 0;
+	}
+	15% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	85% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(-50px);
+		opacity: 0;
+	}
+}
+
+output {
+	display: block;
+}
+
+.wysiwyg, .note-editor {
+	background-color: white;
+	outline: 1px solid #DDD;
+	padding: 10px 5px;
+	margin: -10px 5px;
+	cursor: text;
+}
+
+.entry {
+	padding: 15px 0;
+}
+
+.row {
+	height: 100%;
+}
+
+.entry:nth-child(odd) {
+	background-color: rgb(245, 245, 245);
+}
+
+.navbar {
+	box-shadow: 0 0 25px rgba(0,0,0,.2);
+}
+
+.headers {
+	padding: 0 15px;
+	margin-bottom: 15px;
+}
+
+.fadeOut {
+	animation-name: fadeOut;
+	animation-duration: .5s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+.btn:disabled {
+	opacity: 0.5;
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+.fadeIn {
+	animation-name: fadeIn;
+	animation-duration: .5s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.slideIn {
+	animation-name: slideIn;
+	animation-duration: .5s;
+}
+
+@keyframes slideIn {
+	from {
+		transform: translateY(50px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}

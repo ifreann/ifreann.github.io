@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2">
+  <file source-language="en" target-language="en" tool="Elucidat" datatype="html" original="https://app.elucidat.com/projects/edit/5c12350ac5d4b">
+    <header>
+      <skl>
+        <external-file uid="597714364b460-5c12350ac5d4b" href="https://app.elucidat.com/projects/edit/5c12350ac5d4b"/>
+      </skl>
+      <phase-group>
+        <phase phase-name="extract" process-name="extraction" tool="Elucidat" date="2019-01-08T10:32:04Z" company-name="ICON plc" contact-name="Aisling Curran" contact-email="Aisling.Curran@iconplc.com"/>
+      </phase-group>
+    </header>
+    <body>
+      <group id="theme_translations">
+        <trans-unit id="resource-item-download-title">
+          <source xml:lang="en"><![CDATA[Select this link to download]]></source>
+        </trans-unit>
+        <trans-unit id="sample-text">
+          <source xml:lang="en"><![CDATA[Sample text - This is an ideal place to enrich your learner's understanding of your topic. Enter as much or as little text here as you want.]]></source>
+        </trans-unit>
+        <trans-unit id="chapter-summary-text">
+          <source xml:lang="en"><![CDATA[You can insert a brief summary of the module here...]]></source>
+        </trans-unit>
+        <trans-unit id="login-text">
+          <source xml:lang="en"><![CDATA[Please enter your name and email address and we'll send you your unique course link]]></source>
+        </trans-unit>
+        <trans-unit id="hotspot-title">
+          <source xml:lang="en"><![CDATA[Select this link to reveal more info]]></source>
+        </trans-unit>
+        <trans-unit id="caption-text.image">
+          <source xml:lang="en"><![CDATA[Add Caption]]></source>
+        </trans-unit>
+        <trans-unit id="caption-text.item">
+          <source xml:lang="en"><![CDATA[Add Caption]]></source>
+        </trans-unit>
+        <trans-unit id="caption-text.link">
+          <source xml:lang="en"><![CDATA[Add Section Title]]></source>
+        </trans-unit>
+        <trans-unit id="caption-text.hotspot">
+          <source xml:lang="en"><![CDATA[Add Caption]]></source>
+        </trans-unit>
+        <trans-unit id="caption-text.time">
+          <source xml:lang="en"><![CDATA[10 min]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.default">
+          <source xml:lang="en"><![CDATA[Button]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.hotspot">
+          <source xml:lang="en"><![CDATA[Hotspot]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.link">
+          <source xml:lang="en"><![CDATA[Link]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.flipcard">
+          <source xml:lang="en"><![CDATA[Flip]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.launch">
+          <source xml:lang="en"><![CDATA[Launch]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.previous">
+          <source xml:lang="en"><![CDATA[Previous]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.next">
+          <source xml:lang="en"><![CDATA[Next]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.save">
+          <source xml:lang="en"><![CDATA[Save]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.submit">
+          <source xml:lang="en"><![CDATA[Submit]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.help">
+          <source xml:lang="en"><![CDATA[Help]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.home">
+          <source xml:lang="en"><![CDATA[Home]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.menu">
+          <source xml:lang="en"><![CDATA[Menu]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.quit">
+          <source xml:lang="en"><![CDATA[Quit]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.close-course">
+          <source xml:lang="en"><![CDATA[Close Course]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.resources">
+          <source xml:lang="en"><![CDATA[Resources]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.close">
+          <source xml:lang="en"><![CDATA[Close]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.back">
+          <source xml:lang="en"><![CDATA[Back]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.choose_again">
+          <source xml:lang="en"><![CDATA[Choose Again]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.continue">
+          <source xml:lang="en"><![CDATA[Continue]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.close_modal">
+          <source xml:lang="en"><![CDATA[Close]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.close_menu">
+          <source xml:lang="en"><![CDATA[Close]]></source>
+        </trans-unit>
+        <trans-unit id="button-text.cancel">
+          <source xml:lang="en"><![CDATA[Cancel]]></source>
+        </trans-unit>
+        <trans-unit id="button-title.previous">
+          <source xml:lang="en"><![CDATA[Return to the previous page]]></source>
+        </trans-unit>
+        <trans-unit id="button-title.next">
+          <source xml:lang="en"><![CDATA[Progress to the next page]]></source>
+        </trans-unit>
+        <trans-unit id="button-title.help">
+          <source xml:lang="en"><![CDATA[Open help window]]></source>
+        </trans-unit>
+        <trans-unit id="button-title.home">
+          <source xml:lang="en"><![CDATA[Go to homepage]]></source>
+        </trans-unit>
+        <trans-unit id="button-title.menu">
+          <source xml:lang="en"><![CDATA[Open navigation menu]]></source>
+        </trans-unit>
+        <trans-unit id="button-title.quit">
+          <source xml:lang="en"><![CDATA[Close course]]></source>
+        </trans-unit>
+        <trans-unit id="button-title.resources">
+          <source xml:lang="en"><![CDATA[Open resources window]]></source>
+        </trans-unit>
+        <trans-unit id="button-title.close_menu">
+          <source xml:lang="en"><![CDATA[Close menu]]></source>
+        </trans-unit>
+        <trans-unit id="button-title.close-course">
+          <source xml:lang="en"><![CDATA[Close course]]></source>
+        </trans-unit>
+        <trans-unit id="button-title.choose_again">
+          <source xml:lang="en"><![CDATA[Choose again]]></source>
+        </trans-unit>
+        <trans-unit id="button-title.continue">
+          <source xml:lang="en"><![CDATA[Continue]]></source>
+        </trans-unit>
+        <trans-unit id="button-title.close_modal">
+          <source xml:lang="en"><![CDATA[Close]]></source>
+        </trans-unit>
+        <trans-unit id="button-title.flipcard">
+          <source xml:lang="en"><![CDATA[Reveal the other side of the card]]></source>
+        </trans-unit>
+        <trans-unit id="button-title.cancel">
+          <source xml:lang="en"><![CDATA[Cancel]]></source>
+        </trans-unit>
+        <trans-unit id="buildup">
+          <source xml:lang="en"><![CDATA[Buildup]]></source>
+        </trans-unit>
+        <trans-unit id="buildup-title.reveal_next">
+          <source xml:lang="en"><![CDATA[Select this link to reveal the next item]]></source>
+        </trans-unit>
+        <trans-unit id="buildup-title.reveal_self">
+          <source xml:lang="en"><![CDATA[Select this link to reveal the this item]]></source>
+        </trans-unit>
+        <trans-unit id="accordion.title">
+          <source xml:lang="en"><![CDATA[Section Title]]></source>
+        </trans-unit>
+        <trans-unit id="tab.text">
+          <source xml:lang="en"><![CDATA[Tab Title]]></source>
+        </trans-unit>
+        <trans-unit id="timeline.date">
+          <source xml:lang="en"><![CDATA[1984]]></source>
+        </trans-unit>
+        <trans-unit id="timeline.start">
+          <source xml:lang="en"><![CDATA[Start]]></source>
+        </trans-unit>
+        <trans-unit id="timeline.end">
+          <source xml:lang="en"><![CDATA[End]]></source>
+        </trans-unit>
+        <trans-unit id="question-header-text.default">
+          <source xml:lang="en"><![CDATA[<h3>Type your question here.</h3><p>You can use this space to add additional information or give useful instructions.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="question-header-text.free_text">
+          <source xml:lang="en"><![CDATA[<h3>Type your question here.</h3><p>You can use this space to add additional information or give useful instructions.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="question-header-text.likert">
+          <source xml:lang="en"><![CDATA[Do you agree with this statement?]]></source>
+        </trans-unit>
+        <trans-unit id="drag_drop.dropbox-text">
+          <source xml:lang="en"><![CDATA[Dropbox]]></source>
+        </trans-unit>
+        <trans-unit id="drag_drop.dropper-text">
+          <source xml:lang="en"><![CDATA[Dropper]]></source>
+        </trans-unit>
+        <trans-unit id="sortable.item-text">
+          <source xml:lang="en"><![CDATA[Sortable Item]]></source>
+        </trans-unit>
+        <trans-unit id="answer-text">
+          <source xml:lang="en"><![CDATA[Type your answer here]]></source>
+        </trans-unit>
+        <trans-unit id="likert-answer-text">
+          <source xml:lang="en"><![CDATA[Option]]></source>
+        </trans-unit>
+        <trans-unit id="multiple_response.question">
+          <source xml:lang="en"><![CDATA[Type your question here.]]></source>
+        </trans-unit>
+        <trans-unit id="multiple_response.true">
+          <source xml:lang="en"><![CDATA[True]]></source>
+        </trans-unit>
+        <trans-unit id="multiple_response.false">
+          <source xml:lang="en"><![CDATA[False]]></source>
+        </trans-unit>
+        <trans-unit id="hotspot">
+          <source xml:lang="en"><![CDATA[Hotspot]]></source>
+        </trans-unit>
+        <trans-unit id="link">
+          <source xml:lang="en"><![CDATA[Link]]></source>
+        </trans-unit>
+        <trans-unit id="modal-text.help">
+          <source xml:lang="en"><![CDATA[<h4>Navigation</h4><p><strong>Forward/Back arrows:</strong> Press on the Forward and Back arrows to move through the course one screen at a time.</p><p><strong>Menu button: </strong>Pressing the Menu button opens up a list of all of the screens in the course. Pressing on a screen title in the list allows you to jump straight to the specific screen you want.</p><h4>Learning Content</h4><p><strong>Interaction buttons: </strong>There will often be buttons within the learning content area on each screen (e.g. MORE or SUBMIT). Press on these to move through a series of slides, explore hotspots on an interactive diagram, or answer questions.</p><p><strong>Hyperlinks:</strong> At some points in the course there may be hyperlinks to external resources. Pressing on these opens a new window in your browser which you must close or minimise to return to the main course.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="modal-text.close-course">
+          <source xml:lang="en"><![CDATA[<h3>Are you sure you want to Close the course?</h3><p>Click <strong>Back</strong> to return to the course or <strong>Close Course</strong> to close the course.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="modal-text.login-confirmation">
+          <source xml:lang="en"><![CDATA[<p>We've sent you an email with your unique course link, you can now close this window.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="modal-title.default">
+          <source xml:lang="en"><![CDATA[Title]]></source>
+        </trans-unit>
+        <trans-unit id="modal-title.close-course">
+          <source xml:lang="en"><![CDATA[Close course]]></source>
+        </trans-unit>
+        <trans-unit id="modal-title.help">
+          <source xml:lang="en"><![CDATA[Help]]></source>
+        </trans-unit>
+        <trans-unit id="modal-title.resources">
+          <source xml:lang="en"><![CDATA[Resources]]></source>
+        </trans-unit>
+        <trans-unit id="modal-title.correct">
+          <source xml:lang="en"><![CDATA[Correct]]></source>
+        </trans-unit>
+        <trans-unit id="modal-title.incorrect">
+          <source xml:lang="en"><![CDATA[Incorrect]]></source>
+        </trans-unit>
+        <trans-unit id="modal-title.partially-correct">
+          <source xml:lang="en"><![CDATA[Partially correct]]></source>
+        </trans-unit>
+        <trans-unit id="modal-title.thank-you">
+          <source xml:lang="en"><![CDATA[Thank you]]></source>
+        </trans-unit>
+        <trans-unit id="modal-title.link-modal">
+          <source xml:lang="en"><![CDATA[Section Title]]></source>
+        </trans-unit>
+        <trans-unit id="score-summary.title">
+          <source xml:lang="en"><![CDATA[title]]></source>
+        </trans-unit>
+        <trans-unit id="score-summary.result">
+          <source xml:lang="en"><![CDATA[Result]]></source>
+        </trans-unit>
+        <trans-unit id="score-summary.score">
+          <source xml:lang="en"><![CDATA[Score]]></source>
+        </trans-unit>
+        <trans-unit id="score-summary.chapter_title">
+          <source xml:lang="en"><![CDATA[Chapter Title]]></source>
+        </trans-unit>
+        <trans-unit id="score-summary.repeat_chapter">
+          <source xml:lang="en"><![CDATA[Repeat this chapter]]></source>
+        </trans-unit>
+        <trans-unit id="score-summary.page_title">
+          <source xml:lang="en"><![CDATA[Page Title]]></source>
+        </trans-unit>
+        <trans-unit id="score-summary.total_score">
+          <source xml:lang="en"><![CDATA[Total score:]]></source>
+        </trans-unit>
+        <trans-unit id="fill-blanks.default-text-1">
+          <source xml:lang="en"><![CDATA[To set the correct answer for a blank - just edit the text within the field]]></source>
+        </trans-unit>
+        <trans-unit id="fill-blanks.default-text-2">
+          <source xml:lang="en"><![CDATA[To add multiple correct answers simply separate them by commas.]]></source>
+        </trans-unit>
+        <trans-unit id="fill-blanks.blank-text">
+          <source xml:lang="en"><![CDATA[Correct Answer]]></source>
+        </trans-unit>
+        <trans-unit id="video-player.none">
+          <source xml:lang="en"><![CDATA[None]]></source>
+        </trans-unit>
+        <trans-unit id="video-player.play">
+          <source xml:lang="en"><![CDATA[Play]]></source>
+        </trans-unit>
+        <trans-unit id="video-player.pause">
+          <source xml:lang="en"><![CDATA[Pause]]></source>
+        </trans-unit>
+        <trans-unit id="video-player.mute">
+          <source xml:lang="en"><![CDATA[Mute]]></source>
+        </trans-unit>
+        <trans-unit id="video-player.fullscreen">
+          <source xml:lang="en"><![CDATA[Fullscreen]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350ad5515-A compliance demo">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[A compliance demo]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739378">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/a01f97f40444435a5c962b620f246de6.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739379">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/1c3eca76bf2fc64a463d29758b8396f5.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad5515_p1550728cdbc-projectTitle">
+          <source xml:lang="en"><![CDATA[<strong>A compliance demo.</strong> <br />Powered by Elucidat.]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad5515_p157670f9070-button__text">
+          <source xml:lang="en"><![CDATA[Get started]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350ad6c3d-Data Protection">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[Data Protection]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739387">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/d7d5cdbb3a4bed8cf38c839956502b34.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739409">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/4e6363464e0dc43c904d5163751207df.jpg (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739416">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/21ca42c6df1be6f0d3814b87d820cc96.jpg (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad6c3d_p157b34aa1e1-text">
+          <source xml:lang="en"><![CDATA[<p>Select a section below to begin.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad6c3d_p156942044bf-caption__text-1">
+          <source xml:lang="en"><![CDATA[<strong>TOPIC ONE: What's your easy mistake?</strong><br />5 common mistakes: Which one's your bad? What's the risk?]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad6c3d_p156942044bf-caption__text-2">
+          <source xml:lang="en"><![CDATA[TOPIC TWO: Data is just data, isn't it?<br /> Try some real-life challenges to see if you dish the right data.]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350ad85da-Topic One">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[Topic One]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739384">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/1c3eca76bf2fc64a463d29758b8396f5.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad85da_p1550728cdbc-projectTitle">
+          <source xml:lang="en"><![CDATA[<strong>Data protection</strong>, it’s probably not for you.]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad85da_p15507291710-text">
+          <source xml:lang="en"><![CDATA[<p><br /></p><p>Yes it’s the law, and you have to do the training, but as long as your company policy stays on the right side of it, and you stick with that, all is well, right?</p><p>Before you judge whether it’s for you or not, take a look at these 5 easy mistakes company employees make, everyday. </p><p><br /></p><h3>Big deal, or no deal at all? <br />See if your colleagues agree with you.</h3><br />]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad85da_p157670f9070-button__text">
+          <source xml:lang="en"><![CDATA[Get started]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350ad9bfe-Easy mistake #1: Sharing is caring">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[Easy mistake #1: Sharing is caring]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739380">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/027d4f6ff8aa7f9e440c8e13e5130956.jpg (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739381">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/36a7442da921c24b41b9d0ef39dd1108.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739382">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/022fac851a60ae4c03cf21ec43e23640.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad9bfe_p1577175ef7f-caption__text">
+          <source xml:lang="en"><![CDATA[You meant to send an email about a customer to your colleague, Dave P, but sent it to Dave B, a different customer, instead.]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad9bfe_p157047a5bec-question__header__text">
+          <source xml:lang="en"><![CDATA[<h3 style="text-align:center;">How would you rate this mistake?</h3>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad9bfe_p157047a5bec-likert__answer__text-1">
+          <source xml:lang="en"><![CDATA[No big deal]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad9bfe_p157047a5bec-likert__answer__text-4">
+          <source xml:lang="en"><![CDATA[Really bad news]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad9bfe_p157047a5bec-likert__answer__text-2">
+          <source xml:lang="en"><![CDATA[Best to avoid]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad9bfe_p157047a5bec-likert__answer__text-3">
+          <source xml:lang="en"><![CDATA[Could end in tears]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad9bfe_p157047b25f5-button__text">
+          <source xml:lang="en"><![CDATA[Rate it]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad9bfe_p157047a5f2f-text">
+          <source xml:lang="en"><![CDATA[<p>Sending customer info to the wrong recipient is the <strong>top reason</strong> for data breaches in the UK. Yet with predictive text, it’s extra easy to do.<br /></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad9bfe_p157047a5f2a-modal__title">
+          <source xml:lang="en"><![CDATA[Sharing is caring, but not when it comes to customer info.<br />]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad9bfe_p157754540f0-accordion__title-1">
+          <source xml:lang="en"><![CDATA[When it goes wrong]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad9bfe_p157754540e1-text-1">
+          <source xml:lang="en"><![CDATA[<p>The Chief Constable of Dyfed-Powys Police accidentally sent an email to the wrong person, containing personal data. He was fined £150,000 by the Information Commissioner's Office (ICO). You can <a href="https://ico.org.uk/media/action-weve-taken/mpns/1624333/mpn-dyfed-powys-police-20160608.pdf"><u><strong>read about it here</strong></u></a>, on their website.</p><p><br />Equally, Chelsea Hospital used ‘CC’ instead of ‘BCC’ on an email thread, and was fined £180,000 for sharing highly sensitive personal information about a group of HIV patients. </p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ad9bfe_p1577545d36e-text">
+          <source xml:lang="en"><![CDATA[<p><strong>How sure are you that you’ve always sent the right files to the right place?</strong></p>]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350adb479-What others thought">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[What others thought]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739389">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/5a351baaf3d064b20d8e5d95b66e2c90.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adb479_p15775570eae-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;">Here's how you rated this mistake:</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adb479_p15775577f52-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong><strong><br /></strong></strong></p><p style="text-align:center;"><strong> <strong>{{chart.5c12350ad9bfe.same_as_you_percentage}} </strong>of people</strong> thought the same as you.</p><p style="text-align:center;"><strong>Now move on for another easy mistake.</strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adb479_p15775573939-button__text">
+          <source xml:lang="en"><![CDATA[Continue]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adb479_p157be78d56c-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong>{{chart.5c12350ad9bfe.how_you_answered}}</strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adb479_p157be78b39b-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong>H</strong>ave a look at how others answered:</p>]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350adcbff-Easy mistake #2: Train pain">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[Easy mistake #2: Train pain]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739391">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/d5048f3292ea173a8659a3f8337c60d5.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739392">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/42538269c9c336d432769374f547f031.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739393">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/6f1eb7633d7e6051cf05cc83aa4a6bb6.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adcbff_p1577175ef7f-caption__text">
+          <source xml:lang="en"><![CDATA[You leave your coat on the train, with your work phone in it.]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adcbff_p157047a5bec-question__header__text">
+          <source xml:lang="en"><![CDATA[<h3 style="text-align:center;">How would you rate this mistake?</h3>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adcbff_p157047a5bec-likert__answer__text-1">
+          <source xml:lang="en"><![CDATA[No big deal]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adcbff_p157047a5bec-likert__answer__text-4">
+          <source xml:lang="en"><![CDATA[Really bad news]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adcbff_p157047a5bec-likert__answer__text-2">
+          <source xml:lang="en"><![CDATA[Best to avoid]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adcbff_p157047a5bec-likert__answer__text-3">
+          <source xml:lang="en"><![CDATA[Could end in tears]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adcbff_p157047b25f5-button__text">
+          <source xml:lang="en"><![CDATA[Rate it]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adcbff_p157047a5f2f-text">
+          <source xml:lang="en"><![CDATA[<p> It’s the key way employees help others get hold of data and the second biggest reason for data breaches in the UK. </p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adcbff_p157047a5f2a-modal__title">
+          <source xml:lang="en"><![CDATA[So easy to do, but it happens way too often.]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adcbff_p157754540f0-accordion__title-1">
+          <source xml:lang="en"><![CDATA[When it goes wrong]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adcbff_p157754540e1-text-1">
+          <source xml:lang="en"><![CDATA[<p>Having an un-secure mobile leaves it open to hacks. <br />Bags also contain documents and notes. <br /><br />Whilst you may not deal with such sensitive data, a health worker who accidentally left a document behind at a client’s house, revealed case details that negatively impacted the lives of more than one family. There's similar stories <a href="https://ico.org.uk/action-weve-taken/enforcement/?facet_type=&amp;facet_sector=Health&amp;facet_date=&amp;date_from=&amp;date_to=" target="_blank" data-hidden-by-rule="false">here</a>.</p><p>But actually, it’s not all about how the info is used by others - enabling others to get their hands on it at all is the crime.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adcbff_p1577545d36e-text">
+          <source xml:lang="en"><![CDATA[<p><strong>Sure your data is safe when those oops moments happen?</strong></p>]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350ade335-What others thought">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[What others thought]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739406">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/8262d29151379a463b92346130d45296.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ade335_p15775570eae-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;">Here's how you rated this mistake:</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ade335_p15775577f52-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong><strong><br /></strong></strong></p><p style="text-align:center;"><strong> <strong>{{chart.5c12350adcbff.same_as_you_percentage}} </strong>of people</strong> thought the same as you.</p><p style="text-align:center;"><strong>Now move on for another easy mistake.</strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ade335_p15775573939-button__text">
+          <source xml:lang="en"><![CDATA[Continue]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ade335_p157be78d56c-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong>{{chart.5c12350adcbff.how_you_answered}}<span></span></strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ade335_p157be78b39b-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong>H</strong>ave a look at how others answered:</p>]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350adf8d7-Easy mistake #3: The forgotten files">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[Easy mistake #3: The forgotten files]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739394">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/d0b3ebc37892cb99d1220125dd0713ca.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739395">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/6c106eb85b7beb7ded76db2292e7ae41.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739396">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/12a2ecbee7a1d5fbe1664fbb8f093261.jpg (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adf8d7_p1577175ef7f-caption__text">
+          <source xml:lang="en"><![CDATA[You find some customer files at the bottom of your drawer, and can’t quite remember how long they’ve been there.]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adf8d7_p157047a5bec-question__header__text">
+          <source xml:lang="en"><![CDATA[<h3 style="text-align:center;">How would you rate this mistake?</h3>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adf8d7_p157047a5bec-likert__answer__text-1">
+          <source xml:lang="en"><![CDATA[No big deal]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adf8d7_p157047a5bec-likert__answer__text-4">
+          <source xml:lang="en"><![CDATA[Really bad news]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adf8d7_p157047a5bec-likert__answer__text-2">
+          <source xml:lang="en"><![CDATA[Best to avoid]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adf8d7_p157047a5bec-likert__answer__text-3">
+          <source xml:lang="en"><![CDATA[Could end in tears]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adf8d7_p157047b25f5-button__text">
+          <source xml:lang="en"><![CDATA[Rate it]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adf8d7_p157047a5f2f-text">
+          <source xml:lang="en"><![CDATA[<p> This goes for data hanging around on your computer and in online files. Why? You can only keep personal info, and relevant parts of it, for a certain reason and timeframe. But also, because someone else could use it. </p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adf8d7_p157047a5f2a-modal__title">
+          <source xml:lang="en"><![CDATA[Having personal data lying around, even if you’re not directly sharing it, is in itself a breach of the laws.]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adf8d7_p157754540f0-accordion__title-1">
+          <source xml:lang="en"><![CDATA[When it goes wrong]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adf8d7_p157754540e1-text-1">
+          <source xml:lang="en"><![CDATA[<p><a href="https://ico.org.uk/action-weve-taken/enforcement/hampshire-county-council/" target="_blank" data-hidden-by-rule="false">Hampshire County Council</a> was hit with a £100,000 fine by the Information Commissioner’s Office after documents containing personal details of over 100 people were found in a disused building.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350adf8d7_p1577545d36e-text">
+          <source xml:lang="en"><![CDATA[<p><strong>You got any lurking around?</strong></p>]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350ae1310-What others thought">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[What others thought]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739403">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/4ca4f688487fca051676ecfb96b21ab8.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae1310_p15775570eae-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;">Here's how you rated this mistake:</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae1310_p15775577f52-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong><strong><br /></strong></strong></p><p style="text-align:center;"><strong> <strong>{{chart.5c12350adf8d7.same_as_you_percentage}} </strong>of people</strong> thought the same as you.</p><p style="text-align:center;"><strong>Now move on for another easy mistake.</strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae1310_p15775573939-button__text">
+          <source xml:lang="en"><![CDATA[Continue]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae1310_p157be78d56c-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong>{{chart.5c12350adf8d7.how_you_answered}}<span></span></strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae1310_p157be78b39b-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong>H</strong>ave a look at how others answered:</p>]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350ae298b-Easy mistake #4: Hackathon gone wrong">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[Easy mistake #4: Hackathon gone wrong]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739397">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/8b180aaf49cb9db52f4b7549144988c9.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739398">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/022fac851a60ae4c03cf21ec43e23640.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739399">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/f6a95a1af5f41e7357f52d5d889dcaa7.jpg (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae298b_p1577175ef7f-caption__text">
+          <source xml:lang="en"><![CDATA[Clicked an email link you’re not totally convinced you should have?]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae298b_p157047a5bec-question__header__text">
+          <source xml:lang="en"><![CDATA[<h3 style="text-align:center;">How would you rate this mistake?</h3>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae298b_p157047a5bec-likert__answer__text-1">
+          <source xml:lang="en"><![CDATA[No big deal]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae298b_p157047a5bec-likert__answer__text-4">
+          <source xml:lang="en"><![CDATA[Really bad news]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae298b_p157047a5bec-likert__answer__text-2">
+          <source xml:lang="en"><![CDATA[Best to avoid]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae298b_p157047a5bec-likert__answer__text-3">
+          <source xml:lang="en"><![CDATA[Could end in tears]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae298b_p157047b25f5-button__text">
+          <source xml:lang="en"><![CDATA[Rate it]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae298b_p157047a5f2f-text">
+          <source xml:lang="en"><![CDATA[<p>They’re often caused because individuals don’t update their anti-virus software, use non-encrypted devices - perhaps their own, or click dodgy links sent through to email addresses. </p><p>Without even knowing it, you could be leaking data to hackers using malware or data phishing.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae298b_p157047a5f2a-modal__title">
+          <source xml:lang="en"><![CDATA[Cyber attacks aren’t just the stuff of NetFlix series, but <strong>happen</strong> <strong>everyday</strong>. ]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae298b_p157754540f0-accordion__title-1">
+          <source xml:lang="en"><![CDATA[When it goes wrong]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae298b_p157754540e1-text-1">
+          <source xml:lang="en"><![CDATA[<p>This is the type of breach that is fined the most. Notching up £1,885,000 of fines over the last two years. </p><br />A telecoms company has just been issued with a record <strong>£400,000 </strong>fine by the ICO for security failings that allowed a cyber attacker to access customer data “with ease”. Read about it <a href="https://ico.org.uk/action-weve-taken/enforcement/talktalk-telecom-group-plc-mpn/" target="_blank" data-hidden-by-rule="false">here</a>.<p><br /></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae298b_p1577545d36e-text">
+          <source xml:lang="en"><![CDATA[<p><strong>Are you on your guard against cyber attacks?</strong></p>]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350ae41bd-What others thought">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[What others thought]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739405">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/d7a51cf8a1281847c6769941a336634b.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae41bd_p15775570eae-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;">Here's how you rated this mistake:</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae41bd_p15775577f52-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong><strong><br /></strong></strong></p><p style="text-align:center;"><strong> <strong>{{chart.5c12350ae298b.same_as_you_percentage}} </strong>of people</strong> thought the same as you.</p><p style="text-align:center;"><strong>Now move on for another easy mistake.</strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae41bd_p15775573939-button__text">
+          <source xml:lang="en"><![CDATA[Continue]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae41bd_p157be78d56c-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong>{{chart.5c12350ae298b.how_you_answered}}<span></span></strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae41bd_p157be78b39b-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong>H</strong>ave a look at how others answered:</p>]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350ae5a0e-Easy mistake #5: Sharketing">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[Easy mistake #5: Sharketing]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739400">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/b9271313dd454439683624ac71dc5bd5.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739401">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/022fac851a60ae4c03cf21ec43e23640.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739402">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/ab3f0e8296bd15f5c78d0d67c4ce0e97.jpg (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae5a0e_p1577175ef7f-caption__text">
+          <source xml:lang="en"><![CDATA[You’re asked to send a marketing message about a new product to people who haven’t asked for you to keep in touch.]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae5a0e_p157047a5bec-question__header__text">
+          <source xml:lang="en"><![CDATA[<h3 style="text-align:center;">How would you rate this mistake?</h3>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae5a0e_p157047a5bec-likert__answer__text-1">
+          <source xml:lang="en"><![CDATA[No big deal]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae5a0e_p157047a5bec-likert__answer__text-4">
+          <source xml:lang="en"><![CDATA[Really bad news]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae5a0e_p157047a5bec-likert__answer__text-2">
+          <source xml:lang="en"><![CDATA[Best to avoid]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae5a0e_p157047a5bec-likert__answer__text-3">
+          <source xml:lang="en"><![CDATA[Could end in tears]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae5a0e_p157047b25f5-button__text">
+          <source xml:lang="en"><![CDATA[Rate it]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae5a0e_p157047a5f2f-text">
+          <source xml:lang="en"><![CDATA[<p>Well, using data like names and numbers misappropriately is a serious breach of the act.</p><p>Especially when you’re trying to sell them something! More sharketing than marketing - sending out recorded messages or contacting people when they haven’t signed up for contact in this way, is data misuse.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae5a0e_p157047a5f2a-modal__title">
+          <source xml:lang="en"><![CDATA[We all get those pesky marketing calls and texts, so what’s the big deal? ]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae5a0e_p157754540f0-accordion__title-1">
+          <source xml:lang="en"><![CDATA[When it goes wrong]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae5a0e_p157754540e1-text-1">
+          <source xml:lang="en"><![CDATA[<p>A claims management company that made 17.5 million calls asking people if they had suffered hearing loss at work has been fined £250,000 by the ICO. Read the story, amongst plenty others, <a href="https://ico.org.uk/action-weve-taken/enforcement/check-point-claims-ltd/" target="_blank" data-hidden-by-rule="false"><u><strong>here</strong></u></a>.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae5a0e_p1577545d36e-text">
+          <source xml:lang="en"><![CDATA[<p><strong>This one kind of depends on your job role, but are you convinced you’ve never used customer data for ‘other reasons’?</strong></p>]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350ae7204-What others thought">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[What others thought]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739404">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/bb6d11a1e0914a68d03f85d74d640665.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae7204_p15775570eae-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;">Here's how you rated this mistake:</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae7204_p15775577f52-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong> <strong>{{chart.5c12350ae5a0e.same_as_you_percentage}} </strong>of people</strong> thought the same as you.</p><p style="text-align:center;"><strong>Now move on for a summary.</strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae7204_p15775573939-button__text">
+          <source xml:lang="en"><![CDATA[Continue]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae7204_p157be78d56c-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong>{{chart.5c12350ae5a0e.how_you_answered}}<span></span></strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae7204_p157be78b39b-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong>H</strong>ave a look at how others answered:</p>]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350ae8893-Don’t let data out the door">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[Don’t let data out the door]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739380">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/027d4f6ff8aa7f9e440c8e13e5130956.jpg (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739396">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/12a2ecbee7a1d5fbe1664fbb8f093261.jpg (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739399">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/f6a95a1af5f41e7357f52d5d889dcaa7.jpg (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739402">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/ab3f0e8296bd15f5c78d0d67c4ce0e97.jpg (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739412">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/47cb3ab60a6a23dcebe7b815e7dd3dd5.jpg (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae8893_p15679021fcc-text">
+          <source xml:lang="en"><![CDATA[<p>It’s likely we have all made or are at risk of making one of these five easy mistakes. </p>
+<p>Behind every breach is a seriously red face.</p>
+<p>So make sure you’re not the one letting data out the door. </p><br /><strong>Take control. Pick the mistakes that most likely apply to you, and find out some easy steps to avoid them.</strong>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae8893_p157058dd1df-caption__text-1">
+          <source xml:lang="en"><![CDATA[Sharing isn't caring]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae8893_p157058dd1df-caption__text-2">
+          <source xml:lang="en"><![CDATA[Train pain]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae8893_p157058dd1df-caption__text-3">
+          <source xml:lang="en"><![CDATA[The forgotten files]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae8893_p157058dd1df-caption__text-1577587dffa">
+          <source xml:lang="en"><![CDATA[Hackathon]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae8893_p157058dd1df-caption__text-1577587e209">
+          <source xml:lang="en"><![CDATA[Sharketing]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae8893_p157058dd2f4-modal__title-1">
+          <source xml:lang="en"><![CDATA[Sharing isn't caring]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae8893_p157058dd2fe-text-1">
+          <source xml:lang="en"><![CDATA[<p>When you’re sharing any customer data, <strong>double check who you are sending it to</strong>.</p><p> This goes for emails, phone calls and letters.</p><p> When you share information internally, ask yourself if that person should have <strong>all</strong> the customer data you have. Should you filter some out? See the next topic to understand what data is OK to use.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae8893_p157058dd2f4-modal__title-2">
+          <source xml:lang="en"><![CDATA[Train pain]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae8893_p157058dd2fe-text-2">
+          <source xml:lang="en"><![CDATA[<p>We can all forget things or be the victim of stealing. So, take action to:</p><ul><li>Put a lock on your mobile devices so data isn’t easy to access</li><li>Encrypt your devices - ask IT for help</li><li>Put a tracker on your mobile or tablet - so it can be found</li><li>Only carry printed or written data where absolutely necessary</li><li>Use password protected cloud storage to access data files when working remotely</li></ul>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae8893_p157058dd2f4-modal__title-3">
+          <source xml:lang="en"><![CDATA[The forgotten files]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae8893_p157058dd2fe-text-3">
+          <source xml:lang="en"><![CDATA[<p>Ensure your work environment has safe places for data to be kept and managed. </p><ul><li>Don’t print customer data unless you really need to</li><li>Set reminders on your calendar to delete it - you can only legally keep relevant data for the time you absolutely need it</li><li>Delete or destroy data safely - shred don’t bin</li><li>Regularly clear out customer data on your computer and servers - it’s not just about printed data storage </li></ul>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae8893_p157058dd2f4-modal__title-1577587dffa">
+          <source xml:lang="en"><![CDATA[Hackathon]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae8893_p157058dd2fe-text-1577587dffa">
+          <source xml:lang="en"><![CDATA[<p>Chat with IT to feel confident you're not at risk of cyber attacks</p>
+<ul><li>Update your anti-virus software regularly</li><li>BYOD? - Check your own devices are encrypted and have anti-virus software installed</li><li>Never respond to suspicious emails. If concerned, call the company they are being sent from to be sure they’re genuine</li><li>If you worry you’ve clicked something you shouldn’t - shout for help!</li></ul>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae8893_p157058dd2f4-modal__title-1577587e209">
+          <source xml:lang="en"><![CDATA[Sharketing]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae8893_p157058dd2fe-text-1577587e209">
+          <source xml:lang="en"><![CDATA[<p>Customer data can only be used for a specific, agreed to, task. </p><p>Unless customers have agreed to be contacted for the purpose you want to get in touch - don’t do it.</p><p>This includes recorded marketing messages. </p><p><span style="background-color:rgb(255,255,0);"><br /></span></p><p><strong>Now check out the other topic so you know what kind of data you can deal with.</strong><br /></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae8893_p15a147f300f-button__text">
+          <source xml:lang="en"><![CDATA[Return to menu]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350ae9f76-Topic Two">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[Topic Two]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739388">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/1c3eca76bf2fc64a463d29758b8396f5.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae9f76_p1550728cdbc-projectTitle">
+          <source xml:lang="en"><![CDATA[<strong></strong>Don’t be a data <strong>PRAT</strong>.]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae9f76_p15507291710-text">
+          <source xml:lang="en"><![CDATA[<p>Stopping data leaks is just one side of data protection. If you’re dealing with data, it has to be the right kind. Wrong data usage also breaks the law.</p><p>To avoid being a data PRAT, here’s four points to remember.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae9f76_p157b3cc35a1-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong>P</strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae9f76_p157b3cc6972-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong>R</strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae9f76_p157b3cc8ce6-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong>A</strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae9f76_p157b3cc9bc5-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong>T</strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae9f76_p157b3cbbe13-text">
+          <source xml:lang="en"><![CDATA[<h3>PURPOSE</h3><p>You can store data for a specific purpose only e.g. for health records or to run a credit check</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae9f76_p157b3cbd34f-text">
+          <source xml:lang="en"><![CDATA[<h3>RELEVANT</h3><p>The data you keep must be relevant and not excessive to that purpose</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae9f76_p157b3cbf1f3-text">
+          <source xml:lang="en"><![CDATA[<h3>ACCURATE</h3><p>If you keep it, keep it accurate - wrong data is bad data </p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae9f76_p157b3cc16ce-text">
+          <source xml:lang="en"><![CDATA[<h3>TIME </h3><p>Only keep it for the time you actually need it</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae9f76_p157be5d34af-text">
+          <source xml:lang="en"><![CDATA[<p>See if you can do it right in the following <strong>challenges</strong>.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350ae9f76_p15a22a8ea6d-button__text">
+          <source xml:lang="en"><![CDATA[Continue]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350aeb0ae-Challenge 1: The great car give-away?">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[Challenge 1: The great car give-away?]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739407">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/4f93f900851547be038cb81da17edf51.jpg (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aeb0ae_p15679096665-text">
+          <source xml:lang="en"><![CDATA[<p>Lindy, who works at a car retailer, has just successfully sold a car to Mr Phillips. It was part-exchange, and he paid the remainder in cash. He’s driven the car away today. <strong>What data on Mr Phillips can Lindy keep?</strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aeb0ae_p15733d438f1-answer__text-1">
+          <source xml:lang="en"><![CDATA[Address]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aeb0ae_p15733d438f1-answer__text-2">
+          <source xml:lang="en"><![CDATA[Contact number]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aeb0ae_p15733d438f1-answer__text-3">
+          <source xml:lang="en"><![CDATA[Bank details]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aeb0ae_p15733d438f1-answer__text-157be608572">
+          <source xml:lang="en"><![CDATA[Credit check details]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aeb0ae_p15733d438f1-answer__text-157be60863c">
+          <source xml:lang="en"><![CDATA[Driving license number]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aeb0ae_p157047ba034-text">
+          <source xml:lang="en"><![CDATA[<p><strong>Keep it:</strong> </p><p>She’s sold the car already, so you could argue she doesn’t need any details. But keeping a name, address and contact number, for a specific length of time (e.g. a year), is appropriate, in case Mr Phillips comes back with any queries or needs to use his warranty. </p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aeb0ae_p157047ba019-modal__title">
+          <source xml:lang="en"><![CDATA[Nice data management skills!]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aeb0ae_p157be63e904-text">
+          <source xml:lang="en"><![CDATA[<p><strong>Lose it:</strong> </p><p>Bank details and credit check details should never have been obtained, since he paid in cash. But they certainly aren’t needed now. Driving license number is no longer needed. It’s purpose was to support the sale - and that’s done.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aeb0ae_p157047ba0b1-text">
+          <source xml:lang="en"><![CDATA[<p>Think again about the purpose for keeping the data, and what is actually relevant to that purpose.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aeb0ae_p157047ba0a6-modal__title">
+          <source xml:lang="en"><![CDATA[Incorrect!]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aeb0ae_p157047ba2a4-button__text">
+          <source xml:lang="en"><![CDATA[Try again]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aeb0ae_p157047ba06b-text">
+          <source xml:lang="en"><![CDATA[<p>Think again about the purpose for keeping the data, and what is actually relevant to that purpose.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aeb0ae_p157047ba1fa-button__text">
+          <source xml:lang="en"><![CDATA[Try again]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aeb0ae_p157be8011ee-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;">You have<strong> {{total.score.raw}}</strong> points.</p>]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350aec7da-Challenge 1: The great car give-away?">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[Challenge 1: The great car give-away?]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739407">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/4f93f900851547be038cb81da17edf51.jpg (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p15679096665-text">
+          <source xml:lang="en"><![CDATA[<p>Lindy, who works at a car retailer, has just successfully sold a car to Mr Phillips. It was part-exchange, and he paid the remainder in cash. He’s driven the car away today. <strong>What data on Mr Phillips can Lindy keep?</strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p15733d438f1-answer__text-1">
+          <source xml:lang="en"><![CDATA[Address]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p15733d438f1-answer__text-2">
+          <source xml:lang="en"><![CDATA[Contact number]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p15733d438f1-answer__text-3">
+          <source xml:lang="en"><![CDATA[Bank details]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p15733d438f1-answer__text-157be608572">
+          <source xml:lang="en"><![CDATA[Credit check details]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p15733d438f1-answer__text-157be60863c">
+          <source xml:lang="en"><![CDATA[Driving license number]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p157047ba034-text">
+          <source xml:lang="en"><![CDATA[<p><strong>Keep it:</strong> </p><p>She’s sold the car already, so you could argue she doesn’t need any details. But keeping a name, address and contact number, for a specific length of time (e.g. a year), is appropriate, in case Mr Phillips comes back with any queries or needs to use his warranty. </p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p157047ba019-modal__title">
+          <source xml:lang="en"><![CDATA[Nice data management skills!]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p157be63e904-text">
+          <source xml:lang="en"><![CDATA[<p><strong>Lose it:</strong> </p><p>Bank details and credit check details should never have been obtained, since he paid in cash. But they certainly aren’t needed now. Driving license number is no longer needed. It’s purpose was to support the sale - and that’s done.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p157047ba0b1-text">
+          <source xml:lang="en"><![CDATA[<p><strong>Keep it:</strong></p><p>She’s sold the car already, so you could argue she doesn’t need any details. But keeping a name, address and contact number, for a specific length of time (e.g. a year), is appropriate, in case Mr Phillips comes back with any queries or needs to use his warranty.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p157047ba0a6-modal__title">
+          <source xml:lang="en"><![CDATA[Dicey data behaviour. <br />Here’s what <strong>should</strong> happen:]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p157047ba2a4-button__text">
+          <source xml:lang="en"><![CDATA[Continue]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p157047ba06b-text">
+          <source xml:lang="en"><![CDATA[<p><strong>Keep it:</strong></p><p>She’s sold the car already, so you could argue she doesn’t need any details. But keeping a name, address and contact number, for a specific length of time (e.g. a year), is appropriate, in case Mr Phillips comes back with any queries or needs to use his warranty.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p157047ba1fa-button__text">
+          <source xml:lang="en"><![CDATA[Continue]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p157047ba059-modal__title">
+          <source xml:lang="en"><![CDATA[Dicey data behaviour. <br />Here’s what <strong>should</strong> happen:]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p157be68c427-text">
+          <source xml:lang="en"><![CDATA[<p><strong>Lose it:</strong></p><p>Bank details and credit check details should never have been obtained, since he paid in cash. But they certainly aren’t needed now. Driving license number is no longer needed. It’s purpose was to support the sale - and that’s done.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p157be6963aa-text">
+          <source xml:lang="en"><![CDATA[<p><strong>Lose it:</strong></p><p>Bank details and credit check details should never have been obtained, since he paid in cash. But they certainly aren’t needed now. Driving license number is no longer needed. It’s purpose was to support the sale - and that’s done.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p157be6cb4fe-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><em>You failed to score points this time.</em></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p157be6cca46-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><em>You failed to score points this time.</em></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aec7da_p157be8331fb-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;">You have<strong> {{total.score.raw}}</strong> points.</p>]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350aee107-Challenge 2: Colleague Boss">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[Challenge 2: Colleague Boss]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739409">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/4e6363464e0dc43c904d5163751207df.jpg (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aee107_p15679096665-text">
+          <source xml:lang="en"><![CDATA[<p>After completing a sale with a new customer, Tiago shares the news with his colleagues. The marketing team ask for details so they can sign the customer up for their regular product emails. <strong>What should Tiago do?</strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aee107_p157be8011ee-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;">You have<strong> {{total.score.raw}}</strong> points.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aee107_p157be911680-answer__text-1">
+          <source xml:lang="en"><![CDATA[Share it all]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aee107_p157be911680-answer__text-2">
+          <source xml:lang="en"><![CDATA[Share the email address only]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aee107_p157be911680-answer__text-3">
+          <source xml:lang="en"><![CDATA[Share nothing]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aee107_p157be911811-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><span>That might not be a good idea.</span></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aee107_p157be9117f7-modal__title">
+          <source xml:lang="en"><![CDATA[Really?]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aee107_p157be911922-button__text">
+          <source xml:lang="en"><![CDATA[Think again]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aee107_p157be9117b6-modal__title">
+          <source xml:lang="en"><![CDATA[Good choice.]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aee107_p157be9117c2-text">
+          <source xml:lang="en"><![CDATA[<p>Avoid being a data PRAT by only sharing data where there’s customer consent and it’s relevant to the purpose.</p>]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350aefaa8-Challenge 2: Colleague Boss">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[Challenge 2: Colleague Boss]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739409">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/4e6363464e0dc43c904d5163751207df.jpg (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aefaa8_p15679096665-text">
+          <source xml:lang="en"><![CDATA[<p>After completing a sale with a new customer, Tiago shares the news with his colleagues. The marketing team ask for details so they can sign the customer up for their regular product emails. <strong>What should Tiago do?</strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aefaa8_p157be8011ee-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;">You have<strong> {{total.score.raw}}</strong> points.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aefaa8_p157be911680-answer__text-1">
+          <source xml:lang="en"><![CDATA[Share it all]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aefaa8_p157be911680-answer__text-2">
+          <source xml:lang="en"><![CDATA[Share the email address only]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aefaa8_p157be911680-answer__text-3">
+          <source xml:lang="en"><![CDATA[Share nothing]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aefaa8_p157be911811-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><span>Avoid being a data PRAT by only sharing data where there’s customer consent and it’s relevant to the purpose.<br /><br /></span></p><p style="text-align:center;"><em>You failed to score points this time.</em></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aefaa8_p157be9117f7-modal__title">
+          <source xml:lang="en"><![CDATA[Really?]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aefaa8_p157be911922-button__text">
+          <source xml:lang="en"><![CDATA[Continue]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aefaa8_p157be9117b6-modal__title">
+          <source xml:lang="en"><![CDATA[Good choice.]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350aefaa8_p157be9117c2-text">
+          <source xml:lang="en"><![CDATA[<p>Avoid being a data PRAT by only sharing data where there’s customer consent and it’s relevant to the purpose.</p>]]></source>
+        </trans-unit>
+      </group>
+      <group id="5c12350af11bf-Results">
+        <trans-unit id="page.name">
+          <source xml:lang="en"><![CDATA[Results]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739385">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/99506631124891bb393a6c75c153a902.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="content.2739390">
+          <source xml:lang="en"><![CDATA[https://cdn.elucidat.com/57bd83105fed3/media/45b99b54cde2409d6b6ff538ca14e06c.png (For reference only)]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350af11bf_p15775570eae-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;">Here's how you did on these <strong>challenges</strong>.</p><p style="text-align:center;">You scored:</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350af11bf_p157be78d56c-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;"><strong>{{total.score.raw}} out of 20</strong></p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350af11bf_p157be78b39b-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;">To avoid being the one with data dirt on your hands, you need to improve your data handling. </p><br />]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350af11bf_p157c2d3534d-button__text">
+          <source xml:lang="en"><![CDATA[Take the challenge again now]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350af11bf_p157c2d7cd3f-button__text">
+          <source xml:lang="en"><![CDATA[Download the PRAT job aid and try again later]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350af11bf_p157c2d7cf52-modal__title">
+          <source xml:lang="en"><![CDATA[Sorry.]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350af11bf_p157c2d7cf58-text">
+          <source xml:lang="en"><![CDATA[<p style="text-align:center;">This is unavailable in this demo.</p>]]></source>
+        </trans-unit>
+        <trans-unit id="pa_5c12350af11bf_p157c2d9f10a-button__text">
+          <source xml:lang="en"><![CDATA[Return to menu]]></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

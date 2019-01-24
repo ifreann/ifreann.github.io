@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>XLF Writer</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote-bs4.css" rel="stylesheet">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.2.1/minty/bootstrap.min.css' />
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<nav class="navbar fixed-top bg-white justify-content-end">
+			<button id="uploadBtn" type="button" class="btn ml-1 btn-dark">Upload</button>
+			<button id="exportBtn" type="button" class="btn ml-1 btn-primary" disabled>Export</button>
+			<input id="uploader" type="file" accept=".xlf" hidden>
+		</nav>
+		<h1 class="text-center">XLF Writer</h1>
+		<div class="instructions justify-content-center">
+			<p class="instruction1 text-center">Upload a valid .xlf file exported from Elucidat to get started.</p>
+			<p class="instruction2 text-center">Make your corrections in the 5th column. You can type directly or highlight text to reveal formatting options.<br>When you're done, hit the "export" button to get your corrected Elucidat labels.<br>Hit "upload" to upload a different .xlf file.</p>
+		</div>
+
+		<div class="p2">
+			<hr>
+			<div class="row headers">
+				<div class="col-3">
+					<div class="row">
+						<div class="col-2"><strong>#</strong></div>
+						<div class="col"><strong>Page Code</strong></div>
+						<div class="col"><strong>Identifier</strong></div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="row">
+						<div class="col"><strong>Content Before</strong></div>
+						<div class="col"><strong>Content After</strong></div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid entries"></div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote-bs4.js"></script>
+	<script src="main.js"></script>
+
+</body>
+
+</html>
