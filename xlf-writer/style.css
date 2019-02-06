@@ -3,6 +3,18 @@ html {
 	word-break: break-word;
 }
 
+.last-header {
+	margin-left: -5px;
+}
+
+.note-editor.note-frame {
+	border: 0;
+}
+
+.note-editor.note-frame .note-editing-area .note-editable {
+	padding: 10px 5px;
+}
+
 .col-2 {
 	word-break: normal;
 }
@@ -11,53 +23,23 @@ html {
 	opacity: 0;
 }
 
-.instructions {
-	display: flex;
-	margin-bottom: 90px;
-}
-
-.instruction1, .instruction2 {
-	position: absolute;
-}
-
-.alert {
-	position: fixed;
-	top: 20px;
-	width: 16%;
-	left: 42%;
+.instruction {
 	text-align: center;
-	z-index: 9999;
-	animation: alert-slide 3s;
-}
-
-@keyframes alert-slide {
-	0% {
-		transform: translateY(-50px);
-		opacity: 0;
-	}
-	15% {
-		transform: translateY(0);
-		opacity: 1;
-	}
-	85% {
-		transform: translateY(0);
-		opacity: 1;
-	}
-	100% {
-		transform: translateY(-50px);
-		opacity: 0;
-	}
-}
-
-output {
-	display: block;
 }
 
 .wysiwyg, .note-editor {
 	background-color: white;
 	outline: 1px solid #DDD;
-	padding: 10px 5px;
 	margin: -10px 5px;
+}
+
+.wysiwyg {
+	padding: 10px 5px;
+	cursor: pointer;
+}
+
+.note-editor {
+	padding: 0;
 	cursor: text;
 }
 
@@ -70,11 +52,12 @@ output {
 }
 
 .entry:nth-child(odd) {
-	background-color: rgb(245, 245, 245);
+	background-color: rgba(0,0,0,0.04)
 }
 
 .navbar {
 	box-shadow: 0 0 25px rgba(0,0,0,.2);
+	padding: 10px;
 }
 
 .headers {
@@ -82,24 +65,22 @@ output {
 	margin-bottom: 15px;
 }
 
-.fadeOut {
-	animation-name: fadeOut;
-	animation-duration: .5s;
-	animation-timing-function: linear;
-	animation-fill-mode: forwards;
-}
-
 .btn:disabled {
-	opacity: 0.5;
+	opacity: 0.2;
 }
 
-@keyframes fadeOut {
-	from {
-		opacity: 1;
-	}
-	to {
-		opacity: 0;
-	}
+::-webkit-scrollbar {
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #555;
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
 
 .fadeIn {
@@ -110,26 +91,35 @@ output {
 }
 
 @keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
+	from { opacity: 0; }
+	to { opacity: 1; }
 }
 
-.slideIn {
-	animation-name: slideIn;
-	animation-duration: .5s;
+.notify {
+	position: fixed;
+	top: 20px;
+	width: 16%;
+	left: 42%;
+	text-align: center;
+	z-index: 9999;
+	animation: notify 3s;
 }
 
-@keyframes slideIn {
-	from {
-		transform: translateY(50px);
+@keyframes notify {
+	0% {
+		transform: translateY(-100px);
 		opacity: 0;
 	}
-	to {
-		transform: translateX(0);
+	25% {
+		transform: translateY(0);
 		opacity: 1;
+	}
+	75% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(-100px);
+		opacity: 0;
 	}
 }
