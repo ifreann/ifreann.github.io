@@ -97,7 +97,7 @@ function play(n) {
 		n--;
 	}
 
-	const result = `<p>Over ${Number(numberOfGames).toLocaleString()} games, auto-play won <b>${Number(p1Wins).toLocaleString()}</b> times, and random selection won <b>${Number(p2Wins).toLocaleString()}</b> times.${idiot ? ` And some idiot won <b>${idiotWins}<b/> times.` : ''}</p><br />`;
+	const result = `<p>Over ${Number(numberOfGames).toLocaleString()} games, auto-play won <b>${Number(p1Wins).toLocaleString()}</b> times, and random selection won <b>${Number(p2Wins).toLocaleString()}</b> times.${idiot ? ` And some idiot won <b>${idiotWins}</b> times.` : ''}</p><br />`;
 
 	output.innerHTML = result + output.innerHTML;
 
